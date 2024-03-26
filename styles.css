@@ -1,57 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap')
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 /* Header Styles */
 header {
+  height: 450px;
   display: inline-flexbox;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 #background-image {
   background-size: cover;
   background-repeat: no-repeat;
   height: 450px;
-  width: 100%;
+
 }
 
 #logo {
-  height: 150px;
-  width: 150px;
+  height: 80px;
+  width: 80px;
   background-size: cover;
   background-image: url(images/logo.jpg);
+  border-radius: 50%;
+  margin-top: 10px;
 }
 
 /* Navigation Styles */
 #navbar {
-  justify-content: center;
+ display: flex;
   height: auto;
   margin-top: 0px;
-  margin-left: 90px;
-  align-content: top;
+  margin-left: 10px;
   height: 100px;
-  align-items: flex-start;
 }
 div ul {
+
   height: 100px;
   list-style-type: none;
   display: flex;
   justify-content: center;
   font-size: larger;
-  margin-top: 0px;
-  align-content: space-around;
+  margin-top: 10px;
+  align-content: space-evenly;
+  padding-left: 350px;
+  padding-top: 10px;
 }
 
-div ul li {
+#navbarList li a{
+  font-family: 'Courier New', Courier, monospace;
+  color: #ffffff ;
   margin: 0 30px;
-  color: black;
+  text-decoration: none;
+}
+#navbarList li a:hover{
+ text-decoration: underline;
 }
 
-div ul li a {
-  text-decoration: none;
-  color: black;
+#anchor {
+  color:black;
+}
+
+@media (max-width:992px) {
+  #navbarList{
+    display: none;
+  }
+}
+#tagline {
+  font-size: larger;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  top: 20%;
+  letter-spacing: 4px;
+  line-height: 40px;
+  font-weight: 700;
+  font-family: "Caveat", cursive;;
+  
 }
 
 /* Main Content Styles */
