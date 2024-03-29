@@ -94,6 +94,7 @@
         /* Center the background image */
         height: 100vh;
         /* Set height to full viewport height */
+        width: 100%;
     }
 
 /*** Footer ***/
