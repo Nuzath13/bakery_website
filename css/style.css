@@ -58,14 +58,13 @@
 }
 .title {
   font-family: Cookie, sans-serif;
-  line-height: 96px;
   color: #634036;
-  font-size: 96px;
+  font-size: 6vw;
   font-weight: 400;
 }
 .sub-title {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 2vw;
 }
 @media (max-width: 991.98px) {
   .navbar .navbar-nav {
