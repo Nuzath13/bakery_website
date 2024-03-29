@@ -64,7 +64,12 @@
         background-color: #FFFFFF;
     }
 }
-
+.menu-button{
+    height: 41px;
+    width: 112px;
+    background-color:  #634036;
+    color: #FFFFFF;
+}
 @media (min-width: 992px) {
     .navbar .nav-item .dropdown-menu {
         display: block;
@@ -82,6 +87,7 @@
         transition: .5s;
         opacity: 1;
     }
+
 }
 .backimg{
         background-image: url('images/hero-bg.png');
