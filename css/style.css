@@ -1,0 +1,137 @@
+/********** Template CSS **********/
+:root {
+    --primary:BROWN;
+    --light: BLACK;
+}
+
+/*** Spinner ***/
+#spinner {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    z-index: 99999;
+}
+
+#spinner.show {
+    transition: opacity .5s ease-out, visibility 0s linear 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*** Navbar ***/
+
+.navbarcustom{
+    background-color: #FFFFFF;
+    font-family: DM  Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.83px;
+}
+
+.collapse{
+    display: inline-flex;
+    margin-right: 0px;
+    align-content: flex-end;
+}
+
+.navbar .navbar-nav .nav-link {
+    padding: 35px 15px;
+    color: var(--light);
+    outline:#111111;
+    font-family: DM  Sans;
+    font-size: 16px;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    color: var(--primary);
+}
+
+.navbar.fixed-top {
+    padding-top: 10px;
+    transition: .5s;
+}
+
+@media (max-width: 991.98px) {
+    .navbar .navbar-nav {
+        margin-top: 10px;
+        border-top: 1px solid #FFFFFF
+    }
+
+    .navbar .navbar-nav .nav-link {
+        padding: 10px 0;
+        background-color: #FFFFFF;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        visibility: hidden;
+        top: 100%;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+        transition: .5s;
+        opacity: 0;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        transform: rotateX(0deg);
+        visibility: visible;
+        transition: .5s;
+        opacity: 1;
+    }
+}
+.backimg{
+        background-image: url('images/hero-bg.png');
+        /* Specify the path to your image */
+        background-size: contain;
+        /* Cover the entire background */
+        background-repeat: no-repeat;
+        /* Do not repeat the background image */
+        background-position: center;
+        /* Center the background image */
+        height: 100vh;
+        /* Set height to full viewport height */
+    }
+
+/*** Footer ***/
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: var(--light);
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: var(--light);
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    color: var(--primary);
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.copyright {
+    background: #111111;
+}
+
+.copyright a {
+    color: var(--primary);
+}
+
+.copyright a:hover {
+    color: var(--light);
+}
