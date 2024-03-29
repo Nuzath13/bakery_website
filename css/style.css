@@ -144,6 +144,28 @@
   /* Set height to full viewport height */
   width: 100%;
 }
+.story{
+
+    font-family: Cookie;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 70.98px;
+    text-align: center!important;
+    color: #634036 !important;
+}
+.content{
+    margin-right: 40px;
+    align-content: end;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26.04px;
+    text-align: left;
+    width: 484px;
+    opacity: 0px;
+    color: #000000;
+}
+
 
 /*** Footer ***/
 
