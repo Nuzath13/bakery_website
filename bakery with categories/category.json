@@ -1,0 +1,18 @@
+[{
+    "id": "cheese",
+    "name": "Cheese Cakes"
+},
+{
+    "id": "chocolate",
+    "name": "Chocolate Cakes"
+},
+{
+    "id": "cream",
+    "name": "Cream Cakes"
+},
+{
+    "id": "reset",
+    "name": "Reset"
+}
+]
+
