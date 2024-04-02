@@ -2,6 +2,7 @@
     "image": "images/cheesecake-slice-chocolate.png",
     "title": "Cheesecake Slice & Chocolate",	
     "description": "Elevate Your Senses with Premium Bakery Creations"
+    
 },
 {
     "image": "images/sacher-tart.png",
@@ -59,14 +60,9 @@
     "description": "Elevate Your Senses with Premium Bakery Creations"
 },
 {
-    "image": "images/tiramisu-cream.png",
-    "title": "Tiramisu Cream Slice, 20 p",	
-    "description": "Elevate Your Senses with Premium Bakery Creations"
-},
-{
     "image": "images/raspberry-stracciatella.png",
     "title": "Raspberry-Stracciatella Cream Slice, 20 p",	
     "description": "Elevate Your Senses with Premium Bakery Creations"
 }
-
 ]
+
