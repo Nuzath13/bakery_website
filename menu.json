@@ -1,0 +1,579 @@
+[
+    {
+        "image": "images/Chocolate and Coconut Slice.jpg",
+        "title": "Chocolate and Coconut Slice",
+        "description": "Indulge in the Richness of Chocolate and Coconut in Every Bite",
+        "category": "cheese"
+    },
+    {
+        "image": "images/Cherry Butter Crumble Slice.jpg",
+        "title": "Cherry Butter Crumble Slice",
+        "description": "Enjoy the Sweetness of Cherries Paired with Buttery Crumbles",
+        "category": "cheese"
+    },
+    {
+        "image": "images/Chocolate and Cherry Slice.jpg",
+        "title": "Chocolate and Cherry Slice",
+        "description": "Satisfy Your Cravings with the Perfect Blend of Chocolate and Cherries",
+        "category": "cheese"
+    },
+    {
+        "image": "images/Brownie.jpg",
+        "title": "Brownie",
+        "description": "Delight in the Richness of This Classic Chocolate Treat",
+        "category": "cheese"
+    },
+    {
+        "image": "images/Cheesecake Slice with Chocolate Crumbles.jpg",
+        "title": "Cheesecake Slice with Chocolate Crumbles",
+        "description": "Experience the Creaminess of Cheesecake with a Decadent Chocolate Crumble Topping",
+        "category": "cheese"
+    },
+    {
+        "image": "images/Rhubarb and Strawberry Slice.jpg",
+        "title": "Rhubarb and Strawberry Slice",
+        "description": "Savor the Perfect Combination of Tart Rhubarb and Sweet Strawberries",
+        "category": "cheese"
+    },
+    {
+        "image": "images/Plum Slice with Butter Crumbles.jpg",
+        "title": "Plum Slice with Butter Crumbles",
+        "description": "Indulge in the Sweetness of Plums Enhanced by Buttery Crumbles",
+        "category": "cheese"
+    },
+    {
+        "image": "images/Nut-Caramel Slice.jpg",
+        "title": "Nut-Caramel Slice",
+        "description": "Enjoy the Crunchiness of Nuts Combined with the Sweetness of Caramel",
+        "category": "cheese"
+    },
+    {
+        "image": "images/Apple Almond Slice.jpg",
+        "title": "Apple-Almond Slice",
+        "description": "Experience the Harmony of Apples and Almonds in Every Bite",
+        "category": "cheese"
+    },
+    {
+        "image": "images/Lemon Slice.jpg",
+        "title": "Lemon Slice",
+        "description": "Brighten Your Day with the Tangy Flavor of Lemon",
+        "category": "cheese"
+    },
+    {
+        "image": "images/Marble Slice.jpg",
+        "title": "Marble Slice",
+        "description": "Indulge in the Swirls of Chocolate and Vanilla in This Classic Treat",
+        "category": "cheese"
+    },
+    {
+        "image": "images/ChSlice.jpg",
+        "title": "Cherry Slice",
+        "description": "Delight in the Sweetness of Cherries in Every Bite",
+        "category": "cheese"
+    },
+    {
+        "image": "images/Viennese Apple Baked Slice.jpg",
+        "title": "Viennese Apple Slice",
+        "description": "Savor the Flavor of Fresh Apples in This Austrian-inspired Treat",
+        "category": "cheese"
+    },
+    {
+        "image": "images/chocolate Slice.jpg",
+        "title": "Chocolate Slice",
+        "description": "Satisfy Your Chocolate Cravings with This Classic Treat",
+        "category": "cheese"
+    },
+    {
+        "image": "images/Butter Crumble Slice.jpg",
+        "title": "Butter Crumble Slice",
+        "description": "Indulge in the Buttery Goodness of This Classic Treat",
+        "category": "cheese"
+    },
+    {
+        "image": "images/Apple Slice with Butter Crumbles.jpg",
+        "title": "Apple Slice with Butter Crumbles",
+        "description": "Enjoy the Sweetness of Apples Topped with Irresistible Butter Crumbles",
+        "category": "cheese"
+    },
+    {
+        "image": "images/Poppy Seed and Butter Crumbles Slice.jpg",
+        "title": "Poppy Seed and Butter Crumble Slice",
+        "description": "Experience the Nutty Flavor of Poppy Seeds with Buttery Crumbles",
+        "category": "cheese"
+    },
+    {
+        "image": "images/Cheesecake Slice.jpg",
+        "title": "Cheesecake Slice",
+        "description": "Indulge in the Creaminess of Cheesecake with This Classic Treat",
+        "category": "cheese"
+    },
+    {
+        "image": "images/Blueberry and Lime Slice.jpg",
+        "title": "Blueberry and Lime Slice",
+        "description": "Enjoy the Tangy Twist of Lime Combined with Juicy Blueberries",
+        "category": "cheese"
+    },
+    {
+        "image": "images/Chocolate Cream Slice.jpg",
+        "title": "Chocolate Cream Slice",
+        "description": "Indulge in the Creamy Goodness of Chocolate with This Delicious Treat",
+        "category": "cheese"
+    },
+    {
+        "image": "images/Almond Bienenstich Slice.jpg",
+        "title": "Almond Bienenstich Slice",
+        "description": "Satisfy Your Cravings with This Nutty and Sweet German Specialty",
+        "category": "cheese"
+    },
+    {
+        "image": "images/Chocolate and Cherry Slice.jpg",
+        "title": "Chocolate and Cherry Cream Slice",
+        "description": "Experience the Decadent Combination of Chocolate and Cherries in This Creamy Treat",
+        "category": "cheese"
+    },
+    {
+        "image": "images/Forest Fruit Cream Slice.jpg",
+        "title": "Forest Fruit Cream Slice",
+        "description": "Delight in the Burst of Flavor from a Variety of Forest Fruits in This Creamy Treat",
+        "category": "cheese"
+    },
+    {
+        "image": "images/Tangerine Cream Slice.jpg",
+        "title": "Tangerine Cream Slice",
+        "description": "Enjoy the Citrusy Flavor of Tangerines in This Creamy Delight",
+        "category": "cheese"
+    },
+    {
+        "image": "images/Raspberry Cream Slice.jpg",
+        "title": "Raspberry Cream Slice",
+        "description": "Savor the Sweetness of Raspberries in Every Creamy Bite",
+        "category": "cheese"
+    },
+    {
+        "image": "images/Raspberry-Stracciatella Cream Slice.jpg",
+        "title": "Raspberry-Stracciatella Cream Slice",
+        "description": "Experience the Unique Combination of Raspberry Flavor and Stracciatella in This Creamy Treat",
+        "category": "cheese"
+    },
+    {
+        "image": "images/Strawberry Cream Slice.jpg",
+        "title": "Strawberry Cream Slice",
+        "description": "Delight in the Sweetness of Fresh Strawberries in This Creamy Slice",
+        "category": "cheese"
+    },
+    {
+        "image": "images/Peach Cream Slice.jpg",
+        "title": "Peach Cream Slice",
+        "description": "Experience the Juiciness of Peaches in This Creamy Delight",
+        "category": "cheese"
+    },
+    {
+        "image": "images/Strawberry-Yoghurt Cream Slice.jpg",
+        "title": "Strawberry-Yoghurt Cream Slice",
+        "description": "Enjoy the Refreshing Flavor of Strawberries and Yoghurt in This Creamy Slice",
+        "category": "cheese"
+    },
+
+    {
+        "image": "images/Wild Berry Cake with Forest Fruits.jpg",
+        "title": "Wild Berry Cake with Forest Fruits",
+        "description": "Enjoy the Burst of Flavor from Forest Fruits in Every Bite",
+        "category": "cream"
+    },
+    {
+        "image": "images/Raspberry Cream Cheese Gateau.jpg",
+        "title": "Raspberry Cream Cheese Gateau",
+        "description": "Indulge in the Creamy Delight of Raspberry and Cream Cheese",
+        "category": "cream"
+    },
+    {
+        "image": "images/Raspberry Cake.jpg",
+        "title": "Raspberry Cake",
+        "description": "Savor the Sweetness of Fresh Raspberries in This Delicious Cake",
+        "category": "cream"
+    },
+    {
+        "image": "images/Strawberry Cake.jpg",
+        "title": "Strawberry Cake",
+        "description": "Experience the Freshness of Juicy Strawberries in Every Slice",
+        "category": "cream"
+    },
+    {
+        "image": "images/Almond Bienenstich.jpg",
+        "title": "Almond Bienenstich",
+        "description": "Delight in the Crunchy Almond Topping of This Traditional Cake",
+        "category": "cream"
+    },
+    {
+        "image": "images/Premium Frankfurt Ring Cake.jpg",
+        "title": "Premium Frankfurt Ring Cake",
+        "description": "Experience the Classic Taste of Frankfurt in This Premium Ring Cake",
+        "category": "cream"
+    },
+    {
+        "image": "images/Strawberry Cream Gateau.jpg",
+        "title": "Strawberry Cream Gateau",
+        "description": "Indulge in the Creamy Goodness of Strawberries in This Gateau",
+        "category": "cream"
+    },
+    {
+        "image": "images/Latte Macchiato Cream Gateau.jpg",
+        "title": "Latte Macchiato Cream Gateau",
+        "description": "Satisfy Your Coffee Cravings with the Creaminess of Latte Macchiato",
+        "category": "cream"
+    },
+    {
+        "image": "images/Chocolate Cream Gateau.jpg",
+        "title": "Chocolate Cream Gateau",
+        "description": "Delight in the Richness of Chocolate in This Creamy Gateau",
+        "category": "cream"
+    },
+    {
+        "image": "images/Tangerine and Chocolate Cream Gateau.jpg",
+        "title": "Tangerine and Chocolate Cream Gateau",
+        "description": "Experience the Citrusy Tang of Tangerine Combined with Decadent Chocolate",
+        "category": "cream"
+    },
+    {
+        "image": "images/Peach Melba Cream Gateau.jpg",
+        "title": "Peach Melba Cream Gateau",
+        "description": "Enjoy the Sweetness of Peaches and Raspberry Sauce in This Gateau",
+        "category": "cream"
+    },
+    {
+        "image": "images/Cream Cheese Gateau.jpg",
+        "title": "Cream Cheese Gateau",
+        "description": "Indulge in the Creamy Smoothness of Cream Cheese in This Gateau",
+        "category": "cream"
+    },
+    {
+        "image": "images/Chocolate and Cherry Cream Gateau.jpg",
+        "title": "Chocolate and Cherry Cream Gateau",
+        "description": "Experience the Perfect Combination of Chocolate and Cherry in This Gateau",
+        "category": "cream"
+    },
+    {
+        "image": "images/Hazelnut Cream Gateau.jpg",
+        "title": "Hazelnut Cream Gateau",
+        "description": "Enjoy the Nutty Flavor of Hazelnuts in This Creamy Gateau",
+        "category": "cream"
+    },
+    {
+        "image": "images/Chocolate Cream Gateau.jpg",
+        "title": "Chocolate Mousse Gateau",
+        "description": "Indulge in the Silky Smoothness of Chocolate Mousse in This Gateau",
+        "category": "cream"
+    },
+    {
+        "image": "images/Raspberry-Stracciatella-Cream Gateau.jpg",
+        "title": "NEW Raspberry-Stracciatella-Cream Gateau",
+        "description": "Experience the Perfect Blend of Raspberry and Stracciatella in This Cream Gateau",
+        "category": "cream"
+    },
+    
+        {
+            "image": "images/Cheesecake New York Style.jpg",
+            "title": "Cheesecake Slice & Chocolate",
+            "description": "Elevate Your Senses with Premium Bakery Creations",
+            "category": "chocolate"
+        },
+        {
+            "image": "images/Sacher Tart.jpg",
+            "title": "Sacher Tart, 12 p",
+            "description": "Elevate Your Senses with Premium Bakery Creations",
+            "category": "chocolate"
+        },
+        {
+            "image": "images/Peach Cream Slice.jpg",
+            "title": "Peach Cream Slice, lactose-free",
+            "description": "Elevate Your Senses with Premium Bakery Creations",
+            "category": "chocolate"
+        },
+        {
+            "image": "images/Tangerine Cream Slice.jpg",
+            "title": "Tangerine Cream Slice, 20 p",
+            "description": "Elevate Your Senses with Premium Bakery Creations",
+            "category": "chocolate"
+        },
+        {
+            "image": "images/Marzipan.jpg",
+            "title": "Marzipan Gateau, 14 p",
+            "description": "Elevate Your Senses with Premium Bakery Creations",
+            "category": "chocolate"
+        },
+    
+
+
+    {
+        "image": "images/Sacher Tart.jpg",
+        "title": "Sacher Tart",
+        "description": "Indulge in the Richness of Traditional Sacher Tart",
+        "category": "Baked"
+    },
+    {
+        "image": "images/Carrot-Nut Cake.jpg",
+        "title": "Carrot-Nut Cake",
+        "description": "A Delicious Blend of Carrots and Nuts, Perfect for Any Occasion",
+        "category": "Baked"
+    },
+    {
+        "image": "images/Strawberry Tarte.jpg",
+        "title": "Strawberry Tarte",
+        "description": "Enjoy the Freshness of Strawberries in Our Delightful Tarte",
+        "category": "Baked"
+    },
+    {
+        "image": "images/Cheesecake with Tangerines.jpg",
+        "title": "Cheesecake with Tangerines",
+        "description": "A Tangy Twist to Classic Cheesecake with Fresh Tangerines",
+        "category": "Baked"
+    },
+    {
+        "image": "images/Apple Cake with Butter Crumbles.jpg",
+        "title": "NEW Apple Cake with Butter Crumbles",
+        "description": "Savor the Warmth of Fresh Apples Topped with Buttery Crumbles",
+        "category": "Baked"
+    },
+    {
+        "image": "images/Gourmet Apple Tart.jpg",
+        "title": "Gourmet Apple Torte",
+        "description": "A Sophisticated Take on Apple Desserts, Perfect for Discerning Palates",
+        "category": "Baked"
+    },
+    {
+        "image": "images/Blueberry Cheesecake.jpg",
+        "title": "Blueberry Cheesecake",
+        "description": "Delight in the Burst of Flavor from Juicy Blueberries atop Creamy Cheesecake",
+        "category": "Baked"
+    },
+    {
+        "image": "images/Cheesecake New York Style.jpg",
+        "title": "Cheesecake New York Style",
+        "description": "Experience the Classic Creaminess of New York-Style Cheesecake",
+        "category": "Baked"
+    },
+    {
+        "image": "images/Cheesecake.jpg",
+        "title": "Cheesecake",
+        "description": "A Timeless Dessert Classic, Perfect for Any Occasion",
+        "category": "Baked"
+    },
+    {
+        "image": "images/Plum Cake with Butter Crumbles.jpg",
+        "title": "Plum Cake with Butter Crumbles",
+        "description": "Indulge in the Sweetness of Plums Complemented by Buttery Crumbles",
+        "category": "Baked"
+    },
+    {
+        "image": "images/Pear Yoghurt Cake.jpg",
+        "title": "Pear-Yoghurt Cake",
+        "description": "Experience the Harmony of Pears and Yogurt in This Scrumptious Cake",
+        "category": "Baked"
+    },
+    {
+        "image": "images/Chocolate Cake.jpg",
+        "title": "Chocolate Cake",
+        "description": "Satisfy Your Chocolate Cravings with Our Decadent Chocolate Cake",
+        "category": "Baked"
+    },
+    {
+        "image": "images/Poppy Seed and Tangerine Cheesecake.jpg",
+        "title": "Poppy Seed and Tangerine Cheesecake",
+        "description": "Discover the Unique Combination of Poppy Seeds and Tangy Tangerines in This Cheesecake",
+        "category": "Baked"
+    },
+    {
+        "image": "images/Cherry Cake with Butter Crumbles.jpg",
+        "title": "Cherry Cake with Butter Crumbles",
+        "description": "Treat Yourself to the Sweetness of Cherries with Irresistible Butter Crumbles",
+        "category": "Baked"
+    },
+    {
+        "image": "images/Cherry Cake with Butter Crumbles.jpg",
+        "title": "Hazelnut Ring Cake",
+        "description": "Enjoy the Nutty Aroma and Flavor of Hazelnuts in Our Ring Cake Creation",
+        "category": "Baked"
+    },
+    {
+        "image": "images/Banana Ring Cake.jpg",
+        "title": "Banana Ring Cake",
+        "description": "Delight in the Sweetness and Moisture of Bananas in Our Ring Cake",
+        "category": "Baked"
+    },
+    {
+        "image": "images/Marble Ring Cake.jpg",
+        "title": "Marble Ring Cake",
+        "description": "Experience the Swirls of Chocolate and Vanilla in Our Marble Ring Cake",
+        "category": "Baked"
+    },
+    {
+        "image": "images/Lemon Ring Cake.jpg",
+        "title": "Lemon Ring Cake",
+        "description": "Brighten Your Day with the Zesty Flavor of Lemon in Our Ring Cake",
+        "category": "Baked"
+    },
+    {
+        "image": "images/Apple Cake.jpg",
+        "title": "Apple Cake",
+        "description": "Classic Apple Cake That's Perfect for Any Occasion or Celebration",
+        "category": "Baked"
+    },
+    {
+        "image": "images/Raspberry and Hazelnut Cake.jpg",
+        "title": "Raspberry and Hazelnut Cake",
+        "description": "Indulge in the Perfect Marriage of Raspberry Sweetness and Nutty Hazelnut Flavor",
+        "category": "Baked"
+    },
+    {
+        "image": "images/Peach-Passion Fruit Cheesecake.jpg",
+        "title": "Peach-Passion Fruit Cheesecake",
+        "description": "Experience the Exotic Blend of Peach and Passion Fruit in Our Cheesecake Creation",
+        "category": "Baked"
+    },
+    {
+        "image": "images/Chocolate-Pear Cake.jpg",
+        "title": "Chocolate-Pear Cake",
+        "description": "Indulge in the Luxurious Combination of Chocolate and Pear Flavors in This Cake",
+        "category": "Baked"
+    },
+    {
+        "image": "images/Poppy Seed Cake with Butter Crumbles.jpg",
+        "title": "NEW Poppy Seed Cake with Butter Crumbles",
+        "description": "Enjoy the Nutty Flavor of Poppy Seeds with Irresistible Butter Crumbles",
+        "category": "Baked"
+    },
+    {
+        "image": "images/country-style-cherry-cheesecake.jpg",
+        "title": "Country-Style Cherry Cheesecake",
+        "description": "Indulge in the Richness of Cherry Flavor with Creamy Cheesecake",
+        "category": "Country-Style Cakes Ø 36 cm"
+    },
+    {
+        "image": "images/country-style-plum-cake.jpg",
+        "title": "Country-Style Plum Cake with Butter Crumbles",
+        "description": "Savor the Sweetness of Plums Topped with Buttery Crumbles",
+        "category": "Country-Style Cakes Ø 36 cm"
+    },
+    {
+        "image": "images/country-style-apple-cake.jpg",
+        "title": "Country-Style Apple Cake",
+        "description": "Enjoy the Warmth of Freshly Baked Apples in Every Bite",
+        "category": "Country-Style Cakes Ø 36 cm"
+    },
+    {
+        "image": "images/country-style-wild-blueberry-cake.jpg",
+        "title": "Country-Style Wild Blueberry Cake",
+        "description": "Delight in the Burst of Flavor from Wild Blueberries in Every Slice",
+        "category": "Country-Style Cakes Ø 36 cm"
+    },
+    {
+        "image": "images/new-country-style-rhubarb-strawberry-cake.jpg",
+        "title": "NEW Country-Style Rhubarb Strawberry Cake",
+        "description": "Experience the Perfect Blend of Tart Rhubarb and Sweet Strawberries",
+        "category": "Country-Style Cakes Ø 36 cm"
+    },
+        {
+            "image": "images/wild-berry-cake-with-forest-fruits.jpg",
+            "title": "Wild Berry Cake with Forest Fruits",
+            "description": "Enjoy the Burst of Flavor from Forest Fruits in Every Bite",
+            "category": "cream"
+        },
+        {
+            "image": "images/raspberry-cream-cheese-gateau.jpg",
+            "title": "Raspberry Cream Cheese Gateau",
+            "description": "Indulge in the Creamy Delight of Raspberry and Cream Cheese",
+            "category": "cream"
+        },
+        {
+            "image": "images/raspberry-cake.jpg",
+            "title": "Raspberry Cake",
+            "description": "Savor the Sweetness of Fresh Raspberries in This Delicious Cake",
+            "category": "cream"
+        },
+        {
+            "image": "images/strawberry-cake.jpg",
+            "title": "Strawberry Cake",
+            "description": "Experience the Freshness of Juicy Strawberries in Every Slice",
+            "category": "cream"
+        },
+        {
+            "image": "images/almond-bienenstich.jpg",
+            "title": "Almond Bienenstich",
+            "description": "Delight in the Crunchy Almond Topping of This Traditional Cake",
+            "category": "cream"
+        },
+        {
+            "image": "images/premium-frankfurt-ring-cake.jpg",
+            "title": "Premium Frankfurt Ring Cake",
+            "description": "Experience the Classic Taste of Frankfurt in This Premium Ring Cake",
+            "category": "cream"
+        },
+        {
+            "image": "images/strawberry-cream-gateau.jpg",
+            "title": "Strawberry Cream Gateau",
+            "description": "Indulge in the Creamy Goodness of Strawberries in This Gateau",
+            "category": "cream"
+        },
+        {
+            "image": "images/latte-macchiato-cream-gateau.jpg",
+            "title": "Latte Macchiato Cream Gateau",
+            "description": "Satisfy Your Coffee Cravings with the Creaminess of Latte Macchiato",
+            "category": "cream"
+        },
+        {
+            "image": "images/chocolate-cream-gateau.jpg",
+            "title": "Chocolate Cream Gateau",
+            "description": "Delight in the Richness of Chocolate in This Creamy Gateau",
+            "category": "cream"
+        },
+        {
+            "image": "images/tangerine-and-chocolate-cream-gateau.jpg",
+            "title": "Tangerine and Chocolate Cream Gateau",
+            "description": "Experience the Citrusy Tang of Tangerine Combined with Decadent Chocolate",
+            "category": "cream"
+        },
+        {
+            "image": "images/peach-melba-cream-gateau.jpg",
+            "title": "Peach Melba Cream Gateau",
+            "description": "Enjoy the Sweetness of Peaches and Raspberry Sauce in This Gateau",
+            "category": "cream"
+        },
+        {
+            "image": "images/cream-cheese-gateau.jpg",
+            "title": "Cream Cheese Gateau",
+            "description": "Indulge in the Creamy Smoothness of Cream Cheese in This Gateau",
+            "category": "cream"
+        },
+        {
+            "image": "images/chocolate-and-cherry-cream-gateau.jpg",
+            "title": "Chocolate and Cherry Cream Gateau",
+            "description": "Experience the Perfect Combination of Chocolate and Cherry in This Gateau",
+            "category": "cream"
+        },
+        {
+            "image": "images/hazelnut-cream-gateau.jpg",
+            "title": "Hazelnut Cream Gateau",
+            "description": "Enjoy the Nutty Flavor of Hazelnuts in This Creamy Gateau",
+            "category": "cream"
+        },
+        {
+            "image": "images/chocolate-mousse-gateau.jpg",
+            "title": "Chocolate Mousse Gateau",
+            "description": "Indulge in the Silky Smoothness of Chocolate Mousse in This Gateau",
+            "category": "cream"
+        },
+        {
+            "image": "images/new-raspberry-stracciatella-cream-gateau.jpg",
+            "title": "NEW Raspberry-Stracciatella-Cream Gateau",
+            "description": "Experience the Perfect Blend of Raspberry and Stracciatella in This Cream Gateau",
+            "category": "cream"
+        }
+           
+        
+        
+]
+
+
+
+
+
