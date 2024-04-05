@@ -92,3 +92,14 @@
     
 })(jQuery);
 
+// JavaScript to show additional text on scroll
+$(window).scroll(function() {
+    var navbarHeight = $('.navbar').outerHeight();
+    var additionalTextContainer = $('.additional-text-container');
+    if ($(window).scrollTop() > navbarHeight) {
+      additionalTextContainer.addClass('active');
+    } else {
+      additionalTextContainer.removeClass('active');
+    }
+  });
+  

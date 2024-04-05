@@ -254,3 +254,22 @@ h4 {
     font-size: x-large;
 
 }
+/* Style for additional text container
+.navbar-additional{
+  display: none !important; /* Initially hide the additional text */
+/* } */
+
+/* .navbar-additional.nav-item:hover,
+.navbar-additional.active{
+  display:initial; */
+  /* Show additional text container when active */
+/* } */
+
+/* Style for additional text */
+.navbar-additional {
+  padding: 10px;
+  padding-left: 90px;
+  margin-left: 400px;
+  vertical-align: middle;
+  -moz-box-align: center;
+}
