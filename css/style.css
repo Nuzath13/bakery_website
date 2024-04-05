@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+@import url( "https://fonts.google.com/specimen/Balthazar?query=baltha");
 
 /********** Template CSS **********/
 :root {
@@ -151,7 +152,7 @@
   width: 100%;
 }
 .story {
-  font-family: Cookie;
+  font-family: Balthazar;
   font-size: 64px;
   font-weight: 400;
   line-height: 70.98px;
