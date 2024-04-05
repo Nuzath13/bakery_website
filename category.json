@@ -1,4 +1,8 @@
 [{
+        "id": "reset",
+        "name": "All Products"
+    },
+{
     "id" : "Baked",
     "name" : "Baked Cakes"
 },
@@ -13,12 +17,6 @@
 {
     "id": "cheese",
     "name": "Slices"
-},
-
-
-{
-    "id": "reset",
-    "name": "Reset"
 }
 ]
 
