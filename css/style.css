@@ -160,7 +160,9 @@
 }
 .categoryList {
   margin-top: 20px;
+  cursor: pointer;
 }
+
 .btnCategory {
   font-family: Cookie;
   font-size: 24px;

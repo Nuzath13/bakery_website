@@ -26,7 +26,7 @@
     {
         "image": "images/Cheesecake Slice with Chocolate Crumbles.jpg",
         "title": "Cheesecake Slice with Chocolate Crumbles",
-        "description": "Experience the Creaminess of Cheesecake with a Decadent Chocolate Crumble Topping",
+        "description": "Experience the Creaminess of Cheesecake with a Chocolate Crumbles topping",
         "category": "cheese"
     },
     {
@@ -66,7 +66,7 @@
         "category": "cheese"
     },
     {
-        "image": "images/ChSlice.jpg",
+        "image": "images/Cherry Pound Cake.jpg",
         "title": "Cherry Slice",
         "description": "Delight in the Sweetness of Cherries in Every Bite",
         "category": "cheese"
@@ -78,7 +78,7 @@
         "category": "cheese"
     },
     {
-        "image": "images/chocolate Slice.jpg",
+        "image": "images/Chocolate Slice.jpg",
         "title": "Chocolate Slice",
         "description": "Satisfy Your Chocolate Cravings with This Classic Treat",
         "category": "cheese"
@@ -296,13 +296,11 @@
             "category": "chocolate"
         },
         {
-            "image": "images/Marzipan.jpg",
+            "image": "images/marzipan.jpg",
             "title": "Marzipan Gateau, 14 p",
             "description": "Elevate Your Senses with Premium Bakery Creations",
             "category": "chocolate"
         },
-    
-
 
     {
         "image": "images/Sacher Tart.jpg",
