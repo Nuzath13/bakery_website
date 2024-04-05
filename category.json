@@ -1,22 +1,22 @@
-[{
-        "id": "reset",
-        "name": "All Products"
-    },
-{
-    "id" : "Baked",
-    "name" : "Baked Cakes"
-},
-{
+[
+  {
+    "id": "all",
+    "name": "All Products"
+  },
+  {
+    "id": "Baked",
+    "name": "Baked Cakes"
+  },
+  {
     "id": "chocolate",
     "name": "Country-Style Cakes"
-},
-{
+  },
+  {
     "id": "cream",
     "name": "Cream Gateaux"
-},
-{
+  },
+  {
     "id": "cheese",
     "name": "Slices"
-}
+  }
 ]
-

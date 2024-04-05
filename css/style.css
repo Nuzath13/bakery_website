@@ -99,8 +99,6 @@
 }
 .services {
   background-color: #634036;
-  height: 180px;
-  padding: 40px;
 }
 
 .services span {
@@ -139,18 +137,8 @@
     opacity: 1;
   }
 }
-.backimg {
-  background-image: url("images/hero-bg.png");
-  /* Specify the path to your image */
-  background-size: contain;
-  /* Cover the entire background */
-  background-repeat: no-repeat;
-  /* Do not repeat the background image */
-  background-position: center;
-  /* Center the background image */
-  height: 100vh;
-  /* Set height to full viewport height */
-  width: 100%;
+.hero-bg{
+  min-height: 500px;
 }
 .story {
   font-family: Balthazar;
@@ -176,13 +164,11 @@
   border-radius: 25px;
 }
 .content {
-  margin-right: 40px;
   align-content: end;
   font-size: 20px;
   font-weight: 400 !important;
   line-height: 26.04px;
   text-align: left;
-  width: 484px;
   opacity: 0px;
 
 }
@@ -199,6 +185,7 @@ h4 {
 /* Menu */
 .menu-container {
   background-color: #fffaef;
+  padding-bottom: 120px;
 }
 
 .card {
@@ -208,7 +195,7 @@ h4 {
 }
 .card img {
   height: 250px;
-  width: 312px;
+  /* width: 312px; */
 }
 
 .card-title {
