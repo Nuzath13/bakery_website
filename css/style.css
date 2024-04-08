@@ -273,3 +273,16 @@ h4 {
   vertical-align: middle;
   -moz-box-align: center;
 }
+.back-to-top {
+  position: fixed;
+  background-color: #6d5048;
+
+}
+
+.back-to-top i {
+  color: white;
+}
+.key-2{
+ padding-right: 20px;
+ padding-left: 10px;
+}
