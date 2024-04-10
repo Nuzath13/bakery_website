@@ -65,38 +65,37 @@
       class="navbar navbar-expand-lg py-lg-0 px-lg-5 navbar-light bg-white wow fadeIn navbarcustom sticky-top"
       data-wow-delay="0.1s"
     >
-     <div class="container-fluid">
-      <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-        <img src="images/logo.svg" alt="Logo" />
-      </a>
-      <!-- <button
+      <div class="container-fluid">
+        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+          <img src="images/logo.svg" alt="Logo" />
+        </a>
+        <!-- <button
         type="button"
         class="navbar-toggler me-4"
         data-bs-toggle="collapse"
         data-bs-target="#navbarCollapse"
       ></button> -->
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ms-auto">
-          <!-- Modified this line -->
-          
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">Our Story</a>
-          <a class="nav-link" href="#">Contact Us</a>
-          <!-- <a href="#aboutus" class="nav-item nav-link">Our Story</a> -->
-          <!-- <a href="#Contact" class="nav-item nav-link">Contact Us</a> -->
-          <a
-            class="btn btn-primary nav-item nav-link menu-button"
-            href="#menu"
-            role="button"
-            style="padding-top: 7px !important"
-            >Products
-          </a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <!-- Modified this line -->
+
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Our Story</a>
+            <a class="nav-link" href="#">Contact Us</a>
+            <!-- <a href="#aboutus" class="nav-item nav-link">Our Story</a> -->
+            <!-- <a href="#Contact" class="nav-item nav-link">Contact Us</a> -->
+            <a
+              class="btn btn-primary nav-item nav-link menu-button"
+              href="#menu"
+              role="button"
+              style="padding-top: 7px !important"
+              >Products
+            </a>
+          </div>
         </div>
       </div>
     </nav>
-    
-  
-      
+
     <!-- Navbar End -->
 
     <!-- Carousel Start -->
@@ -188,7 +187,7 @@
             Products
           </h1>
         </div>
-        
+
         <div class="row categoryList"></div>
         <div class="row pt-5 productList"></div>
       </div>
@@ -231,7 +230,7 @@
           </div>
         </div>
       </div>
-      <div class="position-fixed bottom-0 end-0 p-3">
+      <div class="position-fixed bottom-0 end-0 p-3 back-to-top-btn">
         <a href="#" class="btn btn-primary rounded-circle back-to-top">
           <i class="bi bi-arrow-up"></i>
         </a>
@@ -264,7 +263,13 @@
             data.forEach((item) => {
               if (item.category == filter || filter == "all") {
                 const col = document.createElement("div");
-                col.classList.add("col-12", "col-lg-4", "col-md-6", "d-flex", "justify-content-center");
+                col.classList.add(
+                  "col-12",
+                  "col-lg-4",
+                  "col-md-6",
+                  "d-flex",
+                  "justify-content-center"
+                );
                 const card = document.createElement("div");
                 card.classList.add("card", "mt-4", "text-center");
                 const imgContainer = document.createElement("div");
@@ -302,7 +307,7 @@
           );
           data.forEach((item) => {
             const col = document.createElement("div");
-            col.classList.add("col-sm", "btnCategory");
+            col.classList.add("col-sm", "btnCategory", "mb-2");
             col.setAttribute("data-category", item.id);
             col.textContent = item.name;
             container.appendChild(col);
@@ -315,7 +320,15 @@
           console.error("Error fetching category data:", error)
         );
 
-        renderMenu("all");
+      renderMenu("all");
+      window.addEventListener("scroll", () => {
+        let backToTopBtn = document.querySelector(".back-to-top-btn");
+        if (window.pageYOffset > 500) {
+          backToTopBtn.style.display = "block";
+        } else {
+          backToTopBtn.style.display = "none";
+        }
+      });
     </script>
   </body>
 </html>
