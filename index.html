@@ -69,28 +69,22 @@
         <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
           <img src="images/logo.svg" alt="Logo" />
         </a>
-        <!-- <button
-        type="button"
-        class="navbar-toggler me-4"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarCollapse"
-      ></button> -->
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
             <!-- Modified this line -->
 
             <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Our Story</a>
-            <a class="nav-link" href="#">Contact Us</a>
-            <!-- <a href="#aboutus" class="nav-item nav-link">Our Story</a> -->
-            <!-- <a href="#Contact" class="nav-item nav-link">Contact Us</a> -->
-            <a
+            <a class="nav-link" href="#aboutus">Our Story</a>
+
+            <a class="nav-link" href="#menu">Products</a>
+            <a class="nav-link" href="#contactus">Contact Us</a>
+            <!-- <a
               class="btn btn-primary nav-item nav-link menu-button"
               href="#menu"
               role="button"
               style="padding-top: 7px !important"
               >Products
-            </a>
+            </a> -->
           </div>
         </div>
       </div>
@@ -141,11 +135,9 @@
 
     <!-- Carousel End -->
     <!-- About Start -->
-    <div class="container py-5 maindiv">
+    <div class="container py-5 maindiv" id="aboutus">
       <div class="text-center position-relative">
-        <h1 class="story" id="aboutus" style="font-family: cookie" ;>
-          Our Story
-        </h1>
+        <h1 class="story" style="font-family: cookie" ;>Our Story</h1>
       </div>
       <div class="row pt-5 align-items-center">
         <div class="col-lg-6 pl-3 content order-lg-1 order-2">
@@ -184,9 +176,7 @@
     <div class="menu-container mb-10" id="menu">
       <div class="container maindiv">
         <div class="text-center position-relative">
-          <h1 class="story" id="aboutus" style="font-family: 'Cookie'">
-            Products
-          </h1>
+          <h1 class="story" style="font-family: 'Cookie'">Products</h1>
         </div>
         <div class="text-center pt-3">
           <div
@@ -204,6 +194,7 @@
     <!-- Footer Start -->
 
     <div
+      id="contactus"
       class="text-dark footer wow fadeIn position-relative"
       data-wow-delay="0.1s"
     >
@@ -346,6 +337,28 @@
         } else {
           backToTopBtn.style.display = "none";
         }
+      });
+      window.addEventListener("scroll", function () {
+        var navLinks = document.querySelectorAll(".nav-link");
+        var ids = ["aboutus", "menu", "contactus"];
+        var divs = ids.map((id) => document.getElementById(id));
+
+        var currentActive = "";
+        for (var i = divs.length - 1; i >= 0; i--) {
+          var divTop = divs[i].getBoundingClientRect().top;
+          var divBottom = divs[i].getBoundingClientRect().bottom;
+          if (divTop < window.innerHeight && divBottom >= 0) {
+            currentActive = divs[i].id;
+            break;
+          }
+        }
+        navLinks.forEach(function (link) {
+          if (link.getAttribute("href") === "#" + currentActive) {
+            link.classList.add("active");
+          } else {
+            link.classList.remove("active");
+          }
+        });
       });
     </script>
   </body>
