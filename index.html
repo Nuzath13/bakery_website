@@ -180,6 +180,7 @@
     </div>
 
     <!-- Menu Section -->
+
     <div class="menu-container mb-10" id="menu">
       <div class="container maindiv">
         <div class="text-center position-relative">
@@ -187,8 +188,14 @@
             Products
           </h1>
         </div>
-
-        <div class="row categoryList"></div>
+        <div class="text-center pt-3">
+          <div
+            class="btn-group mr-2 category-btns"
+            role="group"
+            aria-label="First group"
+          ></div>
+        </div>
+        <!-- <div class="row categoryList"></div> -->
         <div class="row pt-5 productList"></div>
       </div>
     </div>
@@ -261,6 +268,12 @@
             );
             container.innerHTML = "";
             data.forEach((item) => {
+              document
+                .querySelectorAll(".category-btns button")
+                .forEach((btn) => {
+                  if (btn.getAttribute("id") != filter)
+                    btn.classList.remove("active");
+                });
               if (item.category == filter || filter == "all") {
                 const col = document.createElement("div");
                 col.classList.add(
@@ -270,6 +283,7 @@
                   "d-flex",
                   "justify-content-center"
                 );
+                document.querySelector("#" + filter).classList.add("active");
                 const card = document.createElement("div");
                 card.classList.add("card", "mt-4", "text-center");
                 const imgContainer = document.createElement("div");
@@ -303,15 +317,19 @@
         .then((response) => response.json())
         .then((data) => {
           const container = document.querySelector(
-            ".menu-container .categoryList"
+            ".menu-container .category-btns"
           );
-          data.forEach((item) => {
-            const col = document.createElement("div");
-            col.classList.add("col-sm", "btnCategory", "mb-2");
-            col.setAttribute("data-category", item.id);
-            col.textContent = item.name;
-            container.appendChild(col);
-            col.addEventListener("click", () => {
+          data.forEach((item, index) => {
+            const button = document.createElement("button");
+            button.classList.add("btn", "btn-secondary");
+            button.setAttribute("id", item.id);
+            if (index == 0) {
+              button.classList.add("active");
+            }
+            button.setAttribute("data-category", item.id);
+            button.textContent = item.name;
+            container.appendChild(button);
+            button.addEventListener("click", () => {
               renderMenu(item.id);
             });
           });

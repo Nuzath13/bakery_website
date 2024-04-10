@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
-@import url( "https://fonts.google.com/specimen/Balthazar?query=baltha");
-@import url('https://fonts.googleapis.com/css2?family=Balthazar&family=Cookie&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.google.com/specimen/Balthazar?query=baltha");
+@import url("https://fonts.googleapis.com/css2?family=Balthazar&family=Cookie&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 /********** Template CSS **********/
 :root {
@@ -137,7 +137,7 @@
     opacity: 1;
   }
 }
-.hero-bg{
+.hero-bg {
   min-height: 500px;
 }
 .story {
@@ -170,7 +170,6 @@
   line-height: 26.04px;
   text-align: left;
   opacity: 0px;
-
 }
 h4 {
   font-family: "Cookie";
@@ -207,7 +206,7 @@ h4 {
   color: #000000;
   text-align: left;
 }
-.card-text{
+.card-text {
   text-align: left;
 }
 
@@ -240,7 +239,7 @@ h4 {
   box-shadow: none;
 }
 .btnCategory {
-  font-family: "Roboto"!important;
+  font-family: "Roboto" !important;
   font-size: 22px;
   font-weight: 400;
   text-align: center !important;
@@ -249,11 +248,9 @@ h4 {
   margin-right: 20px;
   border-radius: 25px;
 }
-.maincontent{
-  
-    font-family: balthazar;
-    font-size: x-large;
-
+.maincontent {
+  font-family: balthazar;
+  font-size: x-large;
 }
 /* Style for additional text container
 .navbar-additional{
@@ -263,7 +260,7 @@ h4 {
 /* .navbar-additional.nav-item:hover,
 .navbar-additional.active{
   display:initial; */
-  /* Show additional text container when active */
+/* Show additional text container when active */
 /* } */
 
 /* Style for additional text */
@@ -277,13 +274,46 @@ h4 {
 .back-to-top {
   position: fixed;
   background-color: #6d5048;
-
 }
 
 .back-to-top i {
   color: white;
 }
-.key2{
- padding-right: 20px;
- padding-left: 10px;
+.key2 {
+  padding-right: 20px;
+  padding-left: 10px;
+}
+.category-btns {
+  background-color: #fff;
+}
+.category-btns button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  width: 250px;
+  padding: 10px 20px;
+}
+@media (max-width:1160px) {
+  .category-btns button {
+    width: 170px;
+  }
+}
+.category-btns .active {
+  background-color: #634036;
+  color: #fff;
+}
+.category-btns button:hover,
+.category-btns button:focus,
+.category-btns button:active {
+  background-color: #634036;
+  color: #fff;
+  box-shadow: none;
+}
+@media (max-width: 992px) {
+  .category-btns {
+    flex-shrink: 0;
+    max-width: 90%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
 }
