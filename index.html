@@ -328,11 +328,12 @@
         .catch((error) =>
           console.error("Error fetching category data:", error)
         );
-
-      renderMenu("all");
+      document.addEventListener("DOMContentLoaded", function () {
+        renderMenu("all");
+      });
       window.addEventListener("scroll", () => {
         let backToTopBtn = document.querySelector(".back-to-top-btn");
-        if (window.pageYOffset > 500) {
+        if (window.pageYOffset > window.innerHeight) {
           backToTopBtn.style.display = "block";
         } else {
           backToTopBtn.style.display = "none";
