@@ -119,91 +119,21 @@
     "description": "Indulge in the Creamy Goodness of Chocolate with This Delicious Treat",
     "category": "cheese"
   },
-  {
-    "image": "images/Almond Bienenstich Slice.jpg",
-    "title": "Almond Bienenstich Slice",
-    "description": "Satisfy Your Cravings with This Nutty and Sweet German Specialty",
-    "category": "cheese"
-  },
-  {
-    "image": "images/Chocolate and Cherry Slice.jpg",
-    "title": "Chocolate and Cherry Cream Slice",
-    "description": "Experience the Decadent Combination of Chocolate and Cherries in This Creamy Treat",
-    "category": "cheese"
-  },
-  {
-    "image": "images/Forest Fruit Cream Slice.jpg",
-    "title": "Forest Fruit Cream Slice",
-    "description": "Delight in the Burst of Flavor from a Variety of Forest Fruits in This Creamy Treat",
-    "category": "cheese"
-  },
-  {
-    "image": "images/Tangerine Cream Slice.jpg",
-    "title": "Tangerine Cream Slice",
-    "description": "Enjoy the Citrusy Flavor of Tangerines in This Creamy Delight",
-    "category": "cheese"
-  },
-  {
-    "image": "images/Raspberry Cream Slice.jpg",
-    "title": "Raspberry Cream Slice",
-    "description": "Savor the Sweetness of Raspberries in Every Creamy Bite",
-    "category": "cheese"
-  },
-  {
-    "image": "images/Raspberry-Stracciatella Cream Slice.jpg",
-    "title": "Raspberry-Stracciatella Cream Slice",
-    "description": "Experience the Unique Combination of Raspberry Flavor and Stracciatella",
-    "category": "cheese"
-  },
-  {
-    "image": "images/Strawberry Cream Slice.jpg",
-    "title": "Strawberry Cream Slice",
-    "description": "Delight in the Sweetness of Fresh Strawberries in This Creamy Slice",
-    "category": "cheese"
-  },
+  
   {
     "image": "images/Peach Cream Slice.jpg",
     "title": "Peach Cream Slice",
     "description": "Experience the Juiciness of Peaches in This Creamy Delight",
     "category": "cheese"
   },
-  {
-    "image": "images/Strawberry-Yoghurt Cream Slice.jpg",
-    "title": "Strawberry-Yoghurt Cream Slice",
-    "description": "Enjoy the Refreshing Flavor of Strawberries and Yoghurt in This Creamy Slice",
-    "category": "cheese"
-  },
-
-  {
-    "image": "images/Wild Berry Cake with Forest Fruits.jpg",
-    "title": "Wild Berry Cake with Forest Fruits",
-    "description": "Enjoy the Burst of Flavor from Forest Fruits in Every Bite",
-    "category": "cream"
-  },
-  {
-    "image": "images/Raspberry Cream Cheese Gateau.jpg",
-    "title": "Raspberry Cream Cheese Gateau",
-    "description": "Indulge in the Creamy Delight of Raspberry and Cream Cheese",
-    "category": "cream"
-  },
-  {
-    "image": "images/Raspberry Cake.jpg",
-    "title": "Raspberry Cake",
-    "description": "Savor the Sweetness of Fresh Raspberries in This Delicious Cake",
-    "category": "cream"
-  },
+ 
   {
     "image": "images/Strawberry Cake.jpg",
     "title": "Strawberry Cake",
     "description": "Experience the Freshness of Juicy Strawberries in Every Slice",
     "category": "cream"
   },
-  {
-    "image": "images/Almond Bienenstich.jpg",
-    "title": "Almond Bienenstich",
-    "description": "Delight in the Crunchy Almond Topping of This Traditional Cake",
-    "category": "cream"
-  },
+  
   {
     "image": "images/Premium Frankfurt Ring Cake.jpg",
     "title": "Premium Frankfurt Ring Cake",
@@ -216,61 +146,15 @@
     "description": "Indulge in the Creamy Goodness of Strawberries in This Gateau",
     "category": "cream"
   },
-  {
-    "image": "images/Latte Macchiato Cream Gateau.jpg",
-    "title": "Latte Macchiato Cream Gateau",
-    "description": "Satisfy Your Coffee Cravings with the Creaminess of Latte Macchiato",
-    "category": "cream"
-  },
-  {
-    "image": "images/Chocolate Cream Gateau.jpg",
-    "title": "Chocolate Cream Gateau",
-    "description": "Delight in the Richness of Chocolate in This Creamy Gateau",
-    "category": "cream"
-  },
-  {
-    "image": "images/Tangerine and Chocolate Cream Gateau.jpg",
-    "title": "Tangerine and Chocolate Cream Gateau",
-    "description": "Experience the Citrusy Tang of Tangerine Combined with Decadent Chocolate",
-    "category": "cream"
-  },
-  {
-    "image": "images/Peach Melba Cream Gateau.jpg",
-    "title": "Peach Melba Cream Gateau",
-    "description": "Enjoy the Sweetness of Peaches and Raspberry Sauce in This Gateau",
-    "category": "cream"
-  },
+ 
   {
     "image": "images/Cream Cheese Gateau.jpg",
     "title": "Cream Cheese Gateau",
     "description": "Indulge in the Creamy Smoothness of Cream Cheese in This Gateau",
     "category": "cream"
   },
-  {
-    "image": "images/Chocolate and Cherry Cream Gateau.jpg",
-    "title": "Chocolate and Cherry Cream Gateau",
-    "description": "Experience the Perfect Combination of Chocolate and Cherry in This Gateau",
-    "category": "cream"
-  },
-  {
-    "image": "images/Hazelnut Cream Gateau.jpg",
-    "title": "Hazelnut Cream Gateau",
-    "description": "Enjoy the Nutty Flavor of Hazelnuts in This Creamy Gateau",
-    "category": "cream"
-  },
-  {
-    "image": "images/Chocolate Cream Gateau.jpg",
-    "title": "Chocolate Mousse Gateau",
-    "description": "Indulge in the Silky Smoothness of Chocolate Mousse in This Gateau",
-    "category": "cream"
-  },
-  {
-    "image": "images/Raspberry-Stracciatella-Cream Gateau.jpg",
-    "title": "NEW Raspberry-Stracciatella-Cream Gateau",
-    "description": "Experience the Perfect Blend of Raspberry and Stracciatella in This Cream Gateau",
-    "category": "cream"
-  },
-
+ 
+  
   {
     "image": "images/Cheesecake New York Style.jpg",
     "title": "Cheesecake Slice & Chocolate",
@@ -283,24 +167,8 @@
     "description": "Elevate Your Senses with Premium Bakery Creations",
     "category": "chocolate"
   },
-  {
-    "image": "images/Peach Cream Slice.jpg",
-    "title": "Peach Cream Slice, lactose-free",
-    "description": "Elevate Your Senses with Premium Bakery Creations",
-    "category": "chocolate"
-  },
-  {
-    "image": "images/Tangerine Cream Slice.jpg",
-    "title": "Tangerine Cream Slice, 20 p",
-    "description": "Elevate Your Senses with Premium Bakery Creations",
-    "category": "chocolate"
-  },
-  {
-    "image": "images/marzipan.jpg",
-    "title": "Marzipan Gateau, 14 p",
-    "description": "Elevate Your Senses with Premium Bakery Creations",
-    "category": "chocolate"
-  },
+ 
+ 
 
   {
     "image": "images/Sacher Tart.jpg",
